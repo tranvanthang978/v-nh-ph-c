@@ -1,0 +1,42 @@
+#menu ul{
+    background-color: none;
+    list-style-type: none;
+    text-align: left;
+}
+#menu li{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+    text-align: center;
+    display: inline-block;
+    font-size:x-large;
+}
+#menu li a{
+    text-decoration: none;
+    color: black;
+}
+#menu a:hover{
+    color: #FF3399;
+}
+#menu ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.d-block {
+    object-fit: cover;
+}
+
+
+.anhlogo1{
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+    position :relative;
+}
+
+.card:hover{
+    border-radius: 30px;
+    transform: scale(1.1);
+}
